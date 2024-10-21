@@ -27,6 +27,7 @@
             pkgs.python39Packages.pip # Add pip
             pkgs.pyright 
             pkgs.litecli
+            pkgs.pipreqs
           ];
         };
       }
