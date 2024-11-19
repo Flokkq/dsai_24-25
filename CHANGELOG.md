@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [0.3.0-ho3](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/compare/v0.2.0-ho2..v0.3.0-ho3) - 2024-11-19
+
+
+
+
+### ✨ Features
+
+- *(csv)* Add programm to interact with weather data an oop - ([07a2369](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/07a2369982a81ab61a095abbc446f1ec8fe762f8))
+
+### 🔧Chores
+
+- *(repo)* Add envrc - ([1d3752c](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/1d3752ccad776d8bbafa32a0a09a8d3d5a65b604))
+- *(lesson)* Add lesson contents - ([dd5803a](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/dd5803adf954488352905de57c46665dc02549e7))
+- *(docs)* Update README.md with release v0.2.0-ho2 - ([67f13fc](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/67f13fc9add96da8c927fd27298bd502edd2e579))
+
+
 ## [0.2.0-ho2](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/compare/v0.1.0-ho1..v0.2.0-ho2) - 2024-10-21
 
 
@@ -19,6 +35,7 @@
 
 ### 🔧Chores
 
+- *(release)* Prepare for v0.2.0-ho2 - ([b2e49b9](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/b2e49b9282c0acbbb5c78e0c74e808d0c1b64caa))
 - *(repo)* Add pireqs to flake for proper requirements.txt - ([5167140](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/516714097a03e42c3b21e6d13e5f72143aa8f10f))
 - *(repo)* Add tutorials - ([4c95bf9](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/4c95bf9fb79f55024abd40a104499c689471d4fe))
 - *(repo)* Add link to release to README when generating a new release - ([9be5ca7](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/9be5ca7e8e59f60ccfff7c0e34ebb55ac62174f6))
