@@ -1,6 +1,24 @@
 # Changelog
 
 
+## [0.4.0-ho4](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/compare/v0.3.0-ho3..v0.4.0-ho4) - 2024-12-10
+
+
+
+
+### ✨ Features
+
+- *(titanic)* A train crashed into the iceberg in LEGO City - ([ea7a50d](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/ea7a50d23b5e8913e025993a6bbf63d4e6fcbf84))
+- *(tutorials)* Pandas - ([791dd31](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/791dd31e9e7f05ce9bea2e279c26f10b4e6dbd56))
+- *(tutorials)* Analyzing data - ([b5d83f7](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/b5d83f7daa4bfc479ce186dbf03d8bc79196354a))
+- *(tutorials)* Oop - ([29ff078](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/29ff0788946af0432b5e7346678885bb3ee2c361))
+- *(tutorials)* Python basics - ([57f2bd0](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/57f2bd0fa6685ce7425714e2fcead95130535b55))
+
+### 🔧Chores
+
+- *(docs)* Update README.md with release v0.3.0-ho3 - ([94ebcfe](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/94ebcfefd78200194ff82b00730e6c18419ac396))
+
+
 ## [0.3.0-ho3](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/compare/v0.2.0-ho2..v0.3.0-ho3) - 2024-11-19
 
 
@@ -12,6 +30,7 @@
 
 ### 🔧Chores
 
+- *(release)* Prepare for v0.3.0-ho3 - ([4d1052d](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/4d1052d2415457a8be497bf3a307c776d9abdb38))
 - *(repo)* Add envrc - ([1d3752c](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/1d3752ccad776d8bbafa32a0a09a8d3d5a65b604))
 - *(lesson)* Add lesson contents - ([dd5803a](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/dd5803adf954488352905de57c46665dc02549e7))
 - *(docs)* Update README.md with release v0.2.0-ho2 - ([67f13fc](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/67f13fc9add96da8c927fd27298bd502edd2e579))
