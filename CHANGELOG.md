@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [0.5.0-ho5](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/compare/v0.4.0-ho4..v0.5.0-ho5) - 2025-02-25
+
+
+
+
+### ✨ Features
+
+- *(webscraping)* Scrape available nixos versions - ([a04b4bf](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/a04b4bf25dd742ed061ea24f230fc7d5cb477c69))
+- *(mpl)* Mpl tutorial - ([c7cef82](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/c7cef828811946496201dd25e1813fd77031022c))
+
+### 🔧Chores
+
+- *(nix)* Add nbconvert to turn notebooks to raw python - ([9e54735](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/9e54735b1d847eaab1908b6548f5790ddaa722f1))
+- *(docs)* Update README.md with release v0.4.0-ho4 - ([078605d](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/078605dc34b5fc8ea91bd3b454f846a9ebdf5a4a))
+
+
 ## [0.4.0-ho4](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/compare/v0.3.0-ho3..v0.4.0-ho4) - 2024-12-10
 
 
@@ -16,6 +32,7 @@
 
 ### 🔧Chores
 
+- *(release)* Prepare for v0.4.0-ho4 - ([ed29b64](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/ed29b64bd49f2601e8f9918f1fdefcdfd8816846))
 - *(docs)* Update README.md with release v0.3.0-ho3 - ([94ebcfe](https://github.com/Flokkq/https://github.com/orhun/git-cliff/blob/main/cliff.toml/commit/94ebcfefd78200194ff82b00730e6c18419ac396))
 
 
