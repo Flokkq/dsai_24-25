@@ -4,9 +4,14 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, flake-utils, ... }:
-    flake-utils.lib.eachDefaultSystem (system:
-      let
+  outputs = {
+    self,
+    nixpkgs,
+    flake-utils,
+    ...
+  }:
+    flake-utils.lib.eachDefaultSystem (
+      system: let
         pkgs = import nixpkgs {
           inherit system;
           overlays = [
@@ -16,8 +21,7 @@
             })
           ];
         };
-      in
-      {
+      in {
         devShells.default = pkgs.mkShell {
           nativeBuildInputs = [
             pkgs.gnupg
@@ -25,9 +29,10 @@
 
             pkgs.python3 # Ensures Python 3.9 is installed
             pkgs.python39Packages.pip # Add pip
-            pkgs.pyright 
+            pkgs.pyright
             pkgs.litecli
             pkgs.pipreqs
+            pkgs.python312Packages.nbconvert
           ];
         };
       }
