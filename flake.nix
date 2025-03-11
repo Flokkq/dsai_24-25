@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -14,9 +14,10 @@
       system: let
         pkgs = import nixpkgs {
           inherit system;
+          config.allowUnfree = true;
+
           overlays = [
             (final: prev: {
-              # Overlay to explicitly choose Python 3.9
               python = prev.python39;
             })
           ];
@@ -27,12 +28,15 @@
             pkgs.gnupg
             pkgs.git-cliff
 
-            pkgs.python3 # Ensures Python 3.9 is installed
-            pkgs.python39Packages.pip # Add pip
+            pkgs.python3
+            pkgs.python39Packages.pip
             pkgs.pyright
             pkgs.litecli
             pkgs.pipreqs
             pkgs.python312Packages.nbconvert
+
+            pkgs.chromedriver
+            pkgs.selenium-manager
           ];
         };
       }
